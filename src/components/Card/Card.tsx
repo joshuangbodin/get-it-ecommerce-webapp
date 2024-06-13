@@ -98,7 +98,7 @@ const Card = ({ imgURL, description, name, price }: Props) => {
   }
 
   return (
-    <div className=" w-[49%] md:w-[24%] lg:w-[19%] h-[400px]  overflow-hidden">
+    <div className=" w-[49%] md:w-[24%] lg:w-[19%] h-[500px] md:h-[400px]  overflow-hidden">
       <div className="w-full p-2 h-full bg-[#f7f6f6]  flex flex-col justify-between rounded-md overflow-hidden">
         <div className=" flex-1 overflow-hidden">
           {imgURL ? (

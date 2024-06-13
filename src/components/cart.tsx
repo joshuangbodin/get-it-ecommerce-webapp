@@ -97,7 +97,7 @@ const Cart = ({}: Props) => {
             <p className=" min-w-[69px] text-start">{formatCurrency(price)}</p>
           </div>
           <div className="  ">
-            <button className=" min-w-20 mt-16    bg-slate-200 text-orange-600 h-8 rounded-lg hover:border hover:border-orange-600">
+            <button className=" w-16 mt-16    bg-slate-200 text-orange-600 h-8 rounded-lg hover:border hover:border-orange-600">
               Pay
             </button>
           </div>

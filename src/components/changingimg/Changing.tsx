@@ -21,7 +21,7 @@ const Changing: React.FC = ({}: Props) => {
 
   return (
     <React.Fragment>
-      <div className=" mt-40 flex flex-col justify-center items-center w-full">
+      <div id="deals" className=" mt-40 flex flex-col justify-center items-center w-full">
         <h3 className=" w-full text-center text-orange-600 font-bold mb-4 ">
           Hot Deals:
         </h3>
