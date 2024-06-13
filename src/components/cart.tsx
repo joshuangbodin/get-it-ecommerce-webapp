@@ -100,12 +100,12 @@ const Cart = ({}: Props) => {
             clear
           </button>
         </div>
-        <div className="fixed bottom-0  bg-slate-100 font-bold  border-t w-full flex  h-40 px-6">
+        <div className="fixed bottom-0  bg-slate-100 font-bold  border-t w-full flex  h-40 px-2">
           <div className="flex px-4 min-w-40 h-8 items-center gap-10 text-gray-600 mt-16">
             <p className="w-[50px] ">Price:</p>
             <p className=" w-[69px] text-start">{formatCurrency(price)}</p>
           </div>
-          <div className="  pl-2">
+          <div className="  ">
             <button className=" min-w-20 mt-16    bg-slate-200 text-orange-600 h-8 rounded-lg hover:border hover:border-orange-600">
               Pay
             </button>
