@@ -80,4 +80,17 @@
   .icon {
     display: none;
   }
+  .topNavBar{
+    height: 60px;
+
+  }
+  .carticon{
+    width: 40px;
+    height: 40px;
+  }
+  .count{
+    width:15px;
+    height:15px;
+    font-size: 10px;
+  }
 }
