@@ -47,7 +47,7 @@ const Changing: React.FC = ({}: Props) => {
                   MacBook Pro
                 </h3>
                 <p className=" font-bold ">
-                  <strike className=" text-red-800">$4300</strike> $3000
+                  <strong className=" font-thin text-red-800">Old price: $4300  </strong> New Price $3000
                 </p>
               </div>
             </div>
