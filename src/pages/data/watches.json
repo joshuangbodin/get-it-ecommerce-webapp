@@ -1,0 +1,40 @@
+[
+    {
+        "type":"watch",
+        "name": "Rider Exclusive Leather Watch ",
+        "description" : "Durable and Elegant",
+        "ImgURL" : "watch1.jpg",
+        "Price" : 50.56
+    },
+    {
+        "type":"watch",
+        "name": "Casio Ediface ",
+        "description" : "Water Resistant , Functional and Beauty",
+        "ImgURL" : "watch2.jpg",
+        "Price" : 34
+    },
+    {
+        "type":"watch",
+        "name": "Redio Techna 5g ",
+        "description" : "Watch from the future, TouchScreen , HBR and HR Monitor",
+        "ImgURL" : "watch3.jpg",
+        "Price" : 134.5
+    },
+    {
+        "type":"watch",
+        "name": "Adam Kimmels Quartz Watch ",
+        "description" : "Rubber WristBand , Silver Body",
+        "ImgURL" : "watch4.jpg",
+        "Price" : 78
+    },
+    {
+        "type":"watch",
+        "name": "Alpha G Series X ",
+        "description" : "Works with every Ecosystem, Rubber and Chain WristBands",
+        "ImgURL" : "watch5.jpg",
+        "Price" : 203
+    }
+    
+    
+
+]

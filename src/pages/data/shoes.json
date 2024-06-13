@@ -1,0 +1,39 @@
+[
+    {
+    "type": "shoes  male ",
+        "name": "Clarks Xl ",
+        "description" : "size : USA:12 GBR:45 RUS:23 , Color: Black (leather)",
+        "ImgURL" : "shoe1.jpg",
+        "Price" : 45.56
+    },
+    {    "type": "shoes female  ",
+        "name": "leCastle Rose ",
+        "description" : "rose coloured female footwear",
+        "ImgURL" : "shoe2.jpg",
+        "Price" : 43
+    },
+    {    "type": "shoes female unisex male ",
+        "name": "Reebok Bouncers",
+        "description" : "Comfortability and Durability in the new reebok bouncers ",
+        "ImgURL" : "shoe3.jpg",
+        "Price" : 23
+    },
+    {    "type": "shoes female unisex male ",
+        "name": "Nike AirForce 1 Patterned ",
+        "description" : "Style and Versatility with the Nike AirForce",
+        "ImgURL" : "shoe4.jpg",
+        "Price" : 123
+    },
+    {    "type": "shoes female unisex male ",
+        "name": "Vans Vilo Yellow ",
+        "description" : " yellow red black and Orange in all Sizes",
+        "ImgURL" : "shoe5.jpg",
+        "Price" : 73.5
+    },
+    {    "type": "shoes female unisex male ",
+        "name": "Deep Sea Blue Canvas ",
+        "description" : "Sporty and Fashionable.",
+        "ImgURL" : "shoe6.jpg",
+        "Price" : 55
+    }
+]

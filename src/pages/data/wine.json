@@ -1,0 +1,26 @@
+[
+    {
+        "type": "wine drink",
+        "name": "Del Redo Vin ",
+        "description" : "red wine from naples Italy, made from natural red muscat grapes",
+        "ImgURL" : "wine1.jpg",
+        "Price" : 23
+    },
+    {
+        "type": "wine drink",
+        "name": "El rosso de Casa ",
+        "description" : "white wine from catalonia Spain, made from natural white grapes",
+        "ImgURL" : "wine2.jpg",
+        "Price" : 76
+    },
+    {
+        "type": "drink",
+        "name": "Coca Cola ",
+        "description" : " Refreshing Soda Drink",
+        "ImgURL" : "drink1.jpg",
+        "Price" : 1.5
+    }
+    
+    
+
+]

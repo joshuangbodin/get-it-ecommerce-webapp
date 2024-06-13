@@ -1,0 +1,40 @@
+[
+    {
+        "type":"ring jewellry  diamond",
+        "name": "CHANEL Diamond ring ",
+        "description" : "Carbon cutted white Diamond 3.4 carat 3 Oz 14cm",
+        "ImgURL" : "ring1.jpg",
+        "Price" : 786
+    },
+    {
+        "type":"ring jewellry   diamond",
+        "name": "la vollelle Gold Ring",
+        "description" : "Carbon cutted trans-white rgb Diamond 3 carat 2.78 Oz 13.5cm Gold Ring",
+        "ImgURL" : "ring2.jpg",
+        "Price" : 657
+    },
+    {
+        "type":"ring jewellry  silver ",
+        "name": "Della croqeaux Silver Crested Ring ",
+        "description" : "Carbon cutted Diamond 3.4 carat 3 Oz 14cm with Silver Crested Ring Base ",
+        "ImgURL" : "ring3.jpg",
+        "Price" : 376
+    },
+    {
+        "type":"ring jewellry earring silver ",
+        "name": "Slver Earrings",
+        "description" : "white diamond   made from Carbon cutted Diamond 3.4 carat 3 ",
+        "ImgURL" : "ring4.jpg",
+        "Price" : 1397
+    },
+    {
+        "type":" jewellry necklace  gold ",
+        "name": "Van Buenas NeckLace ",
+        "description" : "24 carat, demonsiun Gold with Emerald ",
+        "ImgURL" : "necklace.jpg",
+        "Price" : 9356
+    }
+    
+    
+
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "type": "gadget apple  laptop",
+        "name": "Dell Inspiron 1020 ",
+        "description" : "silver with 14' inche display , 8gb/256gb of Storage , SSD Intel Quad Core i7  2345igh",
+        "ImgURL" : "gadget1.jpg",
+        "Price" : 598
+    },
+    {
+        "type": "gadget apple phone ",
+        "name": "Iphone XS white",
+        "description" : "Accelerometer , Gyrometer , Bionic A1 , 12MP Sensor , Glass Back and Front, FaceID ",
+        "ImgURL" : "gadget2.jpg",
+        "Price" : 146.2
+    },
+    {
+        "type": "gadget phone android",
+        "name": "Samsung S7",
+        "description" : "Gorilla glass Back and Front, Edge Display ,  5.7' Screen Display 2gb/3gb/4gb",
+        "ImgURL" : "gadget3.jpg",
+        "Price" : 93.99
+    },
+    {
+        "type": "gadget apple phone ",
+        "name": "Iphone 6s ",
+        "description" : "1gb/ 16gb/32gb  4.5' screen ,TouchID 32mp Sensor , 1750 mah Battery, 1 SIM card slot",
+        "ImgURL" : "gadget4.jpg",
+        "Price" : 75
+    },
+    {
+        "type": "gadget apple  laptop",
+        "name": "MacBook Pro 2017 Laptop" ,
+        "description" : "13.5' inches Display   8gb/500gb HDD Bionic Core A2 ",
+        "ImgURL" : "gadget5.jpg",
+        "Price" : 1010.78
+    },
+    {
+        "type": "gadget apple  airpod ",
+        "name": "Apple AirPods pro 2",
+        "description" : "Apple AirPods with Dynamic Sound Accomodation and Noise Cancellation , Bluetooth Sync",
+        "ImgURL" : "gadget6.jpg",
+        "Price" : 156.23
+    },
+    {
+        "type": "gadget apple  phone smartwatch airpod laptop",
+        "name": "Apple Series 5 SmartWatch ",
+        "description" : "Series 5  2.5 inch display, HBP , HR, BS detectors and scanners ",
+        "ImgURL" : "gadget7.jpg",
+        "Price" : 23
+    },
+    {
+        "type": "gadget phone apple airpod laptop",
+        "name": "MacBook Air 2015 Laptop",
+        "description" : "white , 13.4' inches Display, 4gb/500gb HDD Intel Core ",
+        "ImgURL" : "gadget8.jpg",
+        "Price" : 345
+    }
+]
