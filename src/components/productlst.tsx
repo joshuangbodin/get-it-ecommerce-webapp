@@ -50,7 +50,7 @@ const ProductList: React.FC = () => {
             />
           </form>
         </div>
-        <div className=" md:w-5/6 flex gap-2 flex-wrap ">
+        <div className=" md:w-5/6 flex flex-wrap ">
           <React.Fragment>
             {productv? productv.map((product,index) => (
               <Card

@@ -105,7 +105,7 @@ const Cart = ({}: Props) => {
             <p className="w-[50px] ">Price:</p>
             <p className=" w-[69px] text-start">{formatCurrency(price)}</p>
           </div>
-          <div className="  px-32">
+          <div className="  pl-2">
             <button className=" min-w-20 mt-16    bg-slate-200 text-orange-600 h-8 rounded-lg hover:border hover:border-orange-600">
               Pay
             </button>

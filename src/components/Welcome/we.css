@@ -36,6 +36,9 @@
 }
 
 @media (max-width:600px) {
+    .searchbanner{
+        margin-top: 50px;
+    }
     .searchbanner h3{
         text-align: center;
         font-size: 25px;
