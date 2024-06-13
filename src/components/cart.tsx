@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { cartContext, itemContext } from "./context/cartContext";
+import { cartContext, cartData, itemContext } from "./context/cartContext";
 import React from "react";
 import { formatCurrency } from "../Utilities/utilitiesFxn";
 import { ShoppingBasket } from "lucide-react";
@@ -8,17 +8,17 @@ type Props = {};
 
 const Cart = ({}: Props) => {
   const [price, setPrice] = useState<number>(0);
-  const [showCart] = useContext<boolean | any>(cartContext);
+  const [showCart , setShowCart] = useContext<boolean | any>(cartContext);
 
   const [Cartlist, setCartlist] = useContext(itemContext);
 
   useEffect(() => {
     var sum = 0;
-    Cartlist.data.forEach((data: { price: number }) => {
-      sum = sum + data.price;
+    Cartlist.data.forEach((data: cartData) => {
+      sum = sum + (data.price* data.quantity);
     });
     setPrice(sum);
-  },[Cartlist]);
+  }, [Cartlist]);
 
   return (
     <React.Fragment>
@@ -33,33 +33,21 @@ const Cart = ({}: Props) => {
           <div className=" w-full mt-40">
             {Cartlist.data.map(
               (
-                data: {
-                  imgUrl: string | undefined;
-                  name:
-                    | string
-                    | number
-                    | boolean
-                    | React.ReactElement<
-                        any,
-                        string | React.JSXElementConstructor<any>
-                      >
-                    | Iterable<React.ReactNode>
-                    | React.ReactPortal
-                    | null
-                    | undefined;
-                  price: number;
-                },
+                data: cartData,
                 index: React.Key | null | undefined
               ) => (
                 <div
                   key={index}
                   className="w-full flex justify-between h-14 border-b items-center px-1 overflow-hidden"
                 >
-                  <img
-                    className="w-12 h-12 rounded-md object-cover"
-                    src={data.imgUrl}
-                    alt=""
-                  />
+                  <div className=" relative w-14 h-14 flex justify-center ">
+                    <img
+                      className="w-12 h-12 rounded-md object-cover"
+                      src={data.imgUrl}
+                      alt=""
+                    />
+                    {data.quantity!==1 && <span className=" absolute w-6 h-6 flex justify-center items-center right-0 top-0 bg-orange-600 rounded-full text-white text-xs ">{data.quantity}</span>}
+                  </div>
                   <p className="  px-2  text-ellipsis">{data.name}</p>
                   <p>{formatCurrency(data.price)}</p>
                   <button
@@ -95,7 +83,10 @@ const Cart = ({}: Props) => {
             className=" ml-[40px] bg-slate-200 w-20 rounded-lg text-sm h-8 hover:border hover:border-orange-600"
             onClick={() => {
               setCartlist({ data: [], length: 0 });
+              setShowCart(false)
             }}
+
+            
           >
             clear
           </button>
@@ -103,7 +94,7 @@ const Cart = ({}: Props) => {
         <div className="fixed bottom-0  bg-slate-100 font-bold  border-t w-full flex  h-40 px-2">
           <div className="flex px-4 min-w-40 h-8 items-center gap-10 text-gray-600 mt-16">
             <p className="w-[50px] ">Price:</p>
-            <p className=" w-[69px] text-start">{formatCurrency(price)}</p>
+            <p className=" min-w-[69px] text-start">{formatCurrency(price)}</p>
           </div>
           <div className="  ">
             <button className=" min-w-20 mt-16    bg-slate-200 text-orange-600 h-8 rounded-lg hover:border hover:border-orange-600">

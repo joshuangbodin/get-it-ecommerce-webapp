@@ -14,6 +14,7 @@ export interface cartData{
     name: string;
     imgUrl: string;
     price: number;
+    quantity: number;
 }
 
 export interface cartDataList{
