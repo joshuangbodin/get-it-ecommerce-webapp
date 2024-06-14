@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "../../pages/data/gen";
 import Card from "../Card/Card copy";
-import "./CardList.css";
+
 
 type Props = {};
 

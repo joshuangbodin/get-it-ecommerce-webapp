@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./changing.css";
+
 interface Props {}
 
 const Changing: React.FC = ({}: Props) => {
