@@ -19,3 +19,15 @@ body{
 title{
   font-family: 'Sedgwick';
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(219, 73, 5);
+  border-radius: 40px;
+}

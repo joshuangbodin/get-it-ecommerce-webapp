@@ -30,7 +30,7 @@ const Cart = ({}: Props) => {
         }
       >
         {Cartlist.data.length !== 0 ? (
-          <div className=" w-full mt-40">
+          <div className=" w-full h-[66%]  mt-40">
             {Cartlist.data.map(
               (
                 data: cartData,
@@ -62,7 +62,7 @@ const Cart = ({}: Props) => {
                         length: Cartlist.data.length,
                       });
                     }}
-                    className=" bg-orange-600 w-[10%] rounded text-white  hover:bg-orange-800"
+                    className=" bg-orange-600 w-[30px] rounded text-white  hover:bg-orange-800"
                   >
                     x
                   </button>
