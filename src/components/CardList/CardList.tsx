@@ -1,6 +1,6 @@
 
 import Card from "../Card/Card";
-import "./CardList.css"
+
 
 interface Props{
     array : any[];
